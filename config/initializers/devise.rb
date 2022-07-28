@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = 'a8374ed2603ec63a713000ca2aa8d4023837c0a075f4b569f601e162cb261547a69e2910e974d4a13592291ddf1ffa5db412d1026955a1b114d2d346e5081cc1'
+  # config.secret_key = '1bcbdf66ca5dc337bf9134b341c60327d079bcc4ded0b9064697bb12da835c24cc20aba1d0206ba737d5557a6622f77ef79911277dfa59638256221ac200f892'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -46,7 +46,7 @@ Devise.setup do |config|
   # session. If you need permissions, you should implement that in a before filter.
   # You can also supply a hash where the value is a boolean determining whether
   # or not authentication should be aborted when the value is not present.
-  # config.authentication_keys = [:email]
+   config.authentication_keys = [:name]
 
   # Configure parameters from the request object used for authentication. Each entry
   # given should be a request method and it will automatically be passed to the
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '5b6dfc50a68153bf83437c2cde6b640cac1de832fefa57ebea3fb5912a80d2e9e4ac976fb8882461316dcc45b46704b32e6afe6e6fa8b5a2925e94a42df7072a'
+  # config.pepper = 'c823db5e79fb675cf2561eb05f995d91f9296abfd01d2f1b757abee7b601d89c79699049f4f6bcf7165ac1ce30540b177a8391806f4f817dc20c60acbe255abc'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -266,7 +266,7 @@ Devise.setup do |config|
   # config.navigational_formats = ['*/*', :html]
 
   # The default HTTP method used to sign out a resource. Default is :delete.
-  config.sign_out_via = :delete
+  config.sign_out_via = :get
 
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting

@@ -10,8 +10,9 @@ import "channels"
 
 import "jquery";
 import "popper.js";
-import "bootstrap.js";
-import "..stylesheets/application"
+import "bootstrap";
+import "../stylesheets/application"
+import '@fontawesome/fontawesome-free/js/all'
 
 Rails.start()
 Turbolinks.start()

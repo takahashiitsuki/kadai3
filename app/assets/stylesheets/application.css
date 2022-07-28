@@ -14,3 +14,22 @@
  *= require_self
  */
 
+ /**{*/
+   /*margin:0;*/
+   /*padding:0;*/
+   /*box-sizing:border-box;*/
+ /*}*/
+
+ /*header{*/
+   /*margin-bottom:5px;*/
+ /*}*/
+
+/*.header {*/
+  /*background-color:#343a40!important;*/
+  /*color:#fff;*/
+/*}*/
+
+/*.footer {*/
+  /*display: flex;*/
+  /*justify-content:center;*/
+/*}*/
