@@ -1,202 +1,24 @@
 
-An error occurred while loading ./spec/models/book_spec.rb.[31m - Did you mean?
-                    rspec ./spec/models/user_spec.rb
-[0m
-[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
+While loading ./spec/models/book_spec.rb an `exit` / `raise SystemExit` occurred, RSpec will now quit.
+[31mFailure/Error: exit 1[0m
 [31m[0m
-[31mLoadError:[0m
-[31m  Could not open library 'fa': fa: cannot open shared object file: No such file or directory.[0m
-[31m  Could not open library 'libfa.so': libfa.so: cannot open shared object file: No such file or directory[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:145:in `block in ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `map'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:6:in `<module:FFI>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:3:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# ./config/application.rb:7:in `<top (required)>'[0m
-[36m# ./config/environment.rb:2:in `require_relative'[0m
-[36m# ./config/environment.rb:2:in `<top (required)>'[0m
-[36m# ./spec/rails_helper.rb:4:in `require'[0m
-[36m# ./spec/rails_helper.rb:4:in `<top (required)>'[0m
+[31mSystemExit:[0m
+[31m  exit[0m
+[36m# ./spec/rails_helper.rb:31:in `exit'[0m
+[36m# ./spec/rails_helper.rb:31:in `rescue in <top (required)>'[0m
+[36m# ./spec/rails_helper.rb:27:in `<top (required)>'[0m
 [36m# ./spec/models/book_spec.rb:1:in `require'[0m
 [36m# ./spec/models/book_spec.rb:1:in `<top (required)>'[0m
-
-An error occurred while loading ./spec/models/user_spec.rb.[31m - Did you mean?
-                    rspec ./spec/models/book_spec.rb
-[0m
-[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
-[31m[0m
-[31mLoadError:[0m
-[31m  Could not open library 'fa': fa: cannot open shared object file: No such file or directory.[0m
-[31m  Could not open library 'libfa.so': libfa.so: cannot open shared object file: No such file or directory[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:145:in `block in ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `map'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:6:in `<module:FFI>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:3:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# ./config/application.rb:7:in `<main>'[0m
-[36m# ./config/environment.rb:2:in `require_relative'[0m
-[36m# ./config/environment.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/models/user_spec.rb:1:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `block in load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `load'[0m
-
-An error occurred while loading ./spec/system/01_before_login_spec.rb.[31m - Did you mean?
-                    rspec ./spec/system/02_after_login_spec.rb
-[0m
-[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
-[31m[0m
-[31mLoadError:[0m
-[31m  Could not open library 'fa': fa: cannot open shared object file: No such file or directory.[0m
-[31m  Could not open library 'libfa.so': libfa.so: cannot open shared object file: No such file or directory[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:145:in `block in ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `map'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:6:in `<module:FFI>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:3:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# ./config/application.rb:7:in `<main>'[0m
-[36m# ./config/environment.rb:2:in `require_relative'[0m
-[36m# ./config/environment.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/system/01_before_login_spec.rb:1:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `block in load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `load'[0m
-
-An error occurred while loading ./spec/system/02_after_login_spec.rb.[31m - Did you mean?
-                    rspec ./spec/system/01_before_login_spec.rb
-[0m
-[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
-[31m[0m
-[31mLoadError:[0m
-[31m  Could not open library 'fa': fa: cannot open shared object file: No such file or directory.[0m
-[31m  Could not open library 'libfa.so': libfa.so: cannot open shared object file: No such file or directory[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:145:in `block in ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `map'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:6:in `<module:FFI>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:3:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# ./config/application.rb:7:in `<main>'[0m
-[36m# ./config/environment.rb:2:in `require_relative'[0m
-[36m# ./config/environment.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/system/02_after_login_spec.rb:1:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `block in load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `load'[0m
-
-An error occurred while loading ./spec/system/03_finishing_touches_spec.rb.[31m - Did you mean?
-                    rspec ./spec/system/02_after_login_spec.rb
-[0m
-[31mFailure/Error: require File.expand_path('../../config/environment', __FILE__)[0m
-[31m[0m
-[31mLoadError:[0m
-[31m  Could not open library 'fa': fa: cannot open shared object file: No such file or directory.[0m
-[31m  Could not open library 'libfa.so': libfa.so: cannot open shared object file: No such file or directory[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:145:in `block in ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `map'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/ffi-1.15.5/lib/ffi/library.rb:99:in `ffi_lib'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:6:in `<module:FFI>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa/ffi.rb:3:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/fa-0.1.1/lib/fa.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# ./config/application.rb:7:in `<main>'[0m
-[36m# ./config/environment.rb:2:in `require_relative'[0m
-[36m# ./config/environment.rb:2:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/rails_helper.rb:4:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `block in require'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:332:in `require'[0m
-[36m# ./spec/system/03_finishing_touches_spec.rb:1:in `<main>'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:39:in `load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `block in load'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:299:in `load_dependency'[0m
-[36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activesupport-6.1.6.1/lib/active_support/dependencies.rb:326:in `load'[0m
-No examples found.
-
-Finished in 0.00005 seconds (files took 0.85356 seconds to load)
-[31m0 examples, 0 failures, 5 errors occurred outside of examples[0m
-
+[36m# ------------------[0m
+[36m# --- Caused by: ---[0m
+[36m# ActiveRecord::PendingMigrationError:[0m
+[36m#   [0m
+[36m#   [0m
+[36m#   Migrations are pending. To resolve this issue, run:[0m
+[36m#   [0m
+[36m#           bin/rails db:migrate RAILS_ENV=test[0m
+[36m#   [0m
+[36m#   You have 1 pending migration:[0m
+[36m#   [0m
+[36m#   20220726221557_add_user_id_to_books.rb[0m
+[36m#   /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-6.1.6.1/lib/active_record/migration.rb:625:in `check_pending!'[0m
